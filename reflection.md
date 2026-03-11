@@ -8,6 +8,25 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+Bug 1: 
+Expectation: "Go Higher" and "Go Lower" should be indicators for users as to how far their guess is. 
+
+What Happened: The game displayed "Go Higher" every time even though it was incorrect.
+
+Bug 2: 
+Expectation: "New Game" should restart the game and allow the user to have X number of attempts again.
+
+What Happened: "Game over." continued displaying even though user entered a new guess after clicking "New Game".
+
+Bug 3: 
+Expectation: Expected x number of attempts listed in "Attempts Left:"
+
+What Happened: Even though it says "Attempts left:1", the game outputs "Out of attempts!"
+
+Bug 4: 
+Expectation: Range on the left panel should state the range of numbers of which to guess from. 
+
+What happened: The range of the left panel and main screen does not match fo Easy and Hard difficulty level games.
 ---
 
 ## 2. How did you use AI as a teammate?
