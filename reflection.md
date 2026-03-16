@@ -57,9 +57,7 @@ For the Go Higher/Lower indicator bug, I ran `pytest -q` in the terminal and con
 - In your own words, explain why the secret number kept changing in the original app.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
-
-The secret number kept changing because Streamlit reruns the script from top to bottom after each interaction, like clicking Submit. If the number is generated in normal local code on each rerun, it gets replaced again and again.
-Reruns are a full refresh of your Python script, and session state is a storage box that survives those refreshes for one user session. Once I understood that, I only created the secret number when it was missing from session state instead of recreating it every run. That change made the game stable and predictable, and the same secret stayed in place until New Game was clicked.
+The secret number kept changing because Streamlit reruns the script from top to bottom after each interaction, like clicking Submit. If the number is generated in normal local code on each rerun, it gets replaced again and again. Reruns are a full refresh of your Python script, and session state is a storage box that survives those refreshes for one user session. Once I understood that, I only created the secret number when it was missing from session state instead of recreating it every run. That change made the game stable and predictable, and the same secret stayed in place until New Game was clicked.
 ---
 
 ## 5. Looking ahead: your developer habits
