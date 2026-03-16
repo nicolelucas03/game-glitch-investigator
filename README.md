@@ -42,6 +42,7 @@ I refactored helper logic into logic_utils.py and updated imports in app.py. I f
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
 ![alt text](image-1.png)
+![alt text](image.png)
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
